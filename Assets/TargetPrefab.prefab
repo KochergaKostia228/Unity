@@ -119,7 +119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79573f01df2b344693b87ead385fe8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeLevel: 100
+  maxHealth: 100
+  healthBar: {fileID: 0}
+  healthBarOffset: {x: 0, y: 2, z: 0}
 --- !u!114 &7447569277696019895
 MonoBehaviour:
   m_ObjectHideFlags: 0

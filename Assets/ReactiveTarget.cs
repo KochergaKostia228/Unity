@@ -9,6 +9,7 @@ public class ReactiveTarget : MonoBehaviour
     public int ReactToHit(int damage)
     {
         lifeLevel -= damage;
+        Debug.Log("Current Life Level: " + lifeLevel);  // Логирование состояния здоровья после попадания
         if (lifeLevel <= 0)
         {
             StartCoroutine(Die());
